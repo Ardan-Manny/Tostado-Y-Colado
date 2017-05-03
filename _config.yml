@@ -1,0 +1,14 @@
+# Site settings
+title: Tostado Y Colado
+email: info@tostado-y-colado.com
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+baseurl: "/tostado-y-colado" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: tostado-y-colado
+api_key: ZmM5ZmM3NzYtYTJlYS00NTk1LTlmMWMtNzg3YjliNDkzZmQ3NjM2MjkyNjY0MTMxMzgxMDIz
+
+# Build settings
+markdown: kramdown
+collections:
+  - products
+   
