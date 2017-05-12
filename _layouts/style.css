@@ -1,0 +1,6 @@
+{% include css/bootstrap.min.css %}
+{% include css/main.scss %}
+{% include css/_sass/_base.scss %}
+{% include css/_sass/_layout.scss %}
+{% include css/_sass/_syntax-highlighting.scss %}
+{{ content }}
