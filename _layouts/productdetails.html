@@ -11,14 +11,16 @@ head:
     <p>
       {{ page.content }}
     </p>
-
+		<p> 
+			${{ page.price }} 
+		</p>
     <button class="snipcart-add-item btn btn-xl"
       data-item-name="{{ page.name }}"
       data-item-id="{{ page.sku }}"
       data-item-image="{{ page.image }}"
       data-item-url="{{ site.baseurl }}"
       data-item-price="{{ page.price }}">
-      Buy it for ${{ page.price }} 
+      Add to cart  
     </button>
   </div>
 </div>

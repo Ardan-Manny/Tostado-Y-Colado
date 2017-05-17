@@ -1,10 +1,11 @@
-<div class="col-md-4">
+<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
 	
-	<div class="product">
+	<div>
 		
 		<a class="product" href="{{ site.baseurl }}{{ product.url }}">
 			<img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
 			<p>{{ product.name }}</p>
+			<p class="large">${{ product.price }}</p>
 		</a>
 		
 		<button class="snipcart-add-item btn btn-xl"
@@ -13,7 +14,7 @@
 			data-item-image="{{ product.image }}"
 			data-item-url="{{ site.baseurl }}"
 			data-item-price="{{ product.price }}">
-			Buy it for ${{ product.price }} 
+			Add to cart  
 		</button>
 		
 	</div>
